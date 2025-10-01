@@ -5,5 +5,5 @@ $HOME/.config/rofi/theme.rasi
     main-br:            #4E0405E6;
     main-ex:            #270202E6;
     select-bg:          #F0ABAA80;
-    select-fg:          #522929E6;
+    select-fg:          #522929ff;
 }

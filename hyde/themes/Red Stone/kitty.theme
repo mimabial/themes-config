@@ -1,46 +1,67 @@
 # $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
-foreground              #FFFFFF
-background              #121212
-selection_foreground    #121212
-selection_background    #CC4444
-url_color               #E85555
-cursor                  #DD2222
-cursor_text_color       #FFFFFF
+# Basic colors
+foreground              #c9b9a8
+background              #1a1815
+selection_foreground    #1a1815
+selection_background    #c9b9a8
 
-active_tab_foreground   #121212
-active_tab_background   #BB3333
-inactive_tab_foreground #555555
-inactive_tab_background #121212
+# Cursor colors
+cursor                  #d4b896
+cursor_text_color       #1a1815
 
-# Black tones - slightly warmer than pure black
-color0      #1F1515
-color8      #553333
+# URL underline color when hovering with mouse
+url_color               #7fa09e
 
-# Red - balanced intensity
-color1      #EE4444
-color9      #EE4444
+# Kitty window border colors
+active_border_color     #d4896b
+inactive_border_color   #3d3935
 
-# Green (red-tinted for consistency)
-color2      #FF9999
-color10     #FF9999
+# Tab bar colors
+active_tab_foreground   #1a1815
+active_tab_background   #d4896b
+inactive_tab_foreground #8a7f76
+inactive_tab_background #2b2622
+tab_bar_background      #1a1815
 
-# Yellow (warm red-orange)
-color3      #FF7777
-color11     #FF7777
+# Colors for marks (marked text in the terminal)
+mark1_foreground        #1a1815
+mark1_background        #d4896b
+mark2_foreground        #1a1815
+mark2_background        #7fa09e
+mark3_foreground        #1a1815
+mark3_background        #b5927d
 
-# Blue (red-purple)
-color4      #DD5555
-color12     #DD5555
+# The 16 terminal colors
 
-# Magenta (deep red)
-color5      #CC3333
-color13     #CC3333
+# black
+color0  #1a1815
+color8  #4a4541
 
-# Cyan (lighter red-pink)
-color6      #EE6666
-color14     #EE6666
+# red (ember red)
+color4  #c15959
+color12  #d47065
 
-# White (soft pink-white)
-color7      #FFCCCC
-color15     #F0ABAA
+# green (orange/amber substitute)
+color1  #d4896b
+color9 #e69b7f
+
+# yellow (orange golden)
+color3  #d9a364
+color11 #e6b373
+
+# blue
+color6  #7293a8
+color14 #86a8bd
+
+# magenta (red ashen)
+color5  #b5746b
+color13 #c98b82
+
+# cyan (teal)
+color2  #7fa09e
+color10 #93b4b2
+
+# white (grayscale)
+color7  #c9b9a8
+color15 #dfd2c4
