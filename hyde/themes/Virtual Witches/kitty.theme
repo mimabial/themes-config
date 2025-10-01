@@ -1,44 +1,46 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
-foreground              #060606
-background              #D9D0E3
-selection_foreground    #D9D0E3
-selection_background    #060606
-cursor                  #363A4C
-cursor_text_color       #FFFFFF
 
-active_tab_foreground     #D9D0E3
-active_tab_background     #928AA5
-inactive_tab_foreground   #928AA5
-inactive_tab_background   #D9D0E3
+foreground              #9854f1
+background              #e1e2e7
+selection_foreground    #e1e2e7
+selection_background    #99a7df
+cursor                  #9854f1
+cursor_text_color       #e1e2e7
+
+# Tabs
+active_tab_foreground     #9854f1
+active_tab_background     #d5d6db
+inactive_tab_foreground   #8990b3
+inactive_tab_background   #c4c8da
 
 # black
-color0      #E4CCFF
-color8      #9C7AC2
+color0      #b4b5b9
+color8      #a1a6c5
 
 # red
-color1      #293052
-color9      #3A436B
+color1      #f52a65
+color9      #f52a65
 
 # green
-color2      #293552
-color10     #3A496B
+color2      #587539
+color10     #587539
 
 # yellow
-color3      #352952
-color11     #483A6B
+color3      #8c6c3e
+color11     #8c6c3e
 
 # blue
-color4      #634B7D
-color12     #634B7D
+color5      #2e7de9
+color13     #2e7de9
 
 # magenta
-color5      #4B5A7D
-color13     #4B5A7D
+color4      #D75BC1
+color12     #D75BC1
 
 # cyan
-color6      #5A4B7D
-color14     #5A4B7D
+color6      #007197
+color14     #007197
 
 # white
-color7      #293052
-color15     #3A436B
+color7      #EB9592
+color15     #9854f1

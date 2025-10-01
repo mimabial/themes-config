@@ -1,15 +1,5 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
-# vim:ft=kitty
-
-## name:     Catppuccin Kitty Latte
-## author:   Catppuccin Org
-## license:  MIT
-## upstream: https://github.com/catppuccin/kitty/blob/main/themes/latte.conf
-## blurb:    Soothing pastel theme for the high-spirited!
-
-
-
 # The basic colors
 foreground              #3b3e55
 background              #eff1f5

@@ -5,10 +5,11 @@ $GTK_THEME = BlueSky-Clean-Dark
 $ICON_THEME = Tela-circle-nord
 $COLOR_SCHEME = prefer-dark
 $CURSOR_THEME= material_light_cursors
+$NVIM_SCHEME = nord
 
 general {
-    gaps_in = 8
-    gaps_out = 14
+    gaps_in = 6
+    gaps_out = 12
     border_size = 3
     col.active_border = rgba(D3DCE6ff) rgba(293C52ff) 45deg
     col.inactive_border = rgba(122D41ff) rgba(376FABff) 45deg

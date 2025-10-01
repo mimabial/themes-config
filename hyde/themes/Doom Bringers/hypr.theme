@@ -4,8 +4,7 @@ $GTK_THEME = BattleGTK
 $ICON_THEME = Tela-circle-red
 $COLOR_SCHEME = prefer-dark
 $CURSOR_SIZE = 24
-$NVIM_SCHEME = gruvbox-material
-$NVIM_VARIANT = hard
+$NVIM_SCHEME = gruvbox
 
 general {
     gaps_in = 2

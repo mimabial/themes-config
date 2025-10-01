@@ -1,5 +1,5 @@
 $HOME/.config/waybar/theme.css|${scrDir}/wbarconfgen.sh
-@define-color bar-bg rgba(0, 0, 0, 0); /* Transparent background */
+@define-color bar-bg rgba(255, 255, 255, 0.1); /* Transparent background */
 
 /* Main colors */
 @define-color main-bg #eff1f5; /* Latte base */
@@ -12,3 +12,11 @@ $HOME/.config/waybar/theme.css|${scrDir}/wbarconfgen.sh
 /* Hover colors with Flamingo/Rosewater accents */
 @define-color wb-hvr-bg #dc8a78; /* Rosewater accent */
 @define-color wb-hvr-fg #eff1f5; /* Light text color on hover */
+
+window#waybar.bottom #pill,
+window#waybar.bottom #pill button,
+window#waybar.top #pill,
+window#waybar.top #pill button {
+    border-radius: 30pt;
+    border-width: 0em;
+}

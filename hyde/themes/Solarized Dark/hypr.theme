@@ -6,7 +6,7 @@ $COLOR_SCHEME = prefer-dark
 $CURSOR_THEME = Capitaine-Cursors-White
 $CURSOR_SIZE = 25
 $CODE_THEME = Solarized Dark
-$NVIM_SCHEME = solarized-osaka
+$NVIM_SCHEME = solarized
 
 general {
     gaps_in = 2

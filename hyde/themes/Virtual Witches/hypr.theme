@@ -1,10 +1,13 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
-$GTK_THEME=Catppuccin-Dark-Frappe
-$CURSOR_THEME=catppuccin-frappe-dark-cursors
+$GTK_THEME = Catppuccin-Dark-Frappe
+$CURSOR_THEME = catppuccin-frappe-dark-cursors
+$COLOR_SCHEME = prefer-light
+$NVIM_SCHEME= tokyonight
+$NVIM_VARIANT = day
 
 general {
-    gaps_in = 2
+    gaps_in = 3
     gaps_out = 7
     border_size = 2
     col.active_border = rgba(D75BC1ff) rgba(EB9592ff) 45deg
@@ -22,8 +25,6 @@ group {
 
 decoration {
     rounding = 10
-    active_opacity = 0.95
-    inactive_opacity = 0.90
 
     shadow {
     enabled = true

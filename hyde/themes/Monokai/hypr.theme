@@ -7,8 +7,8 @@ $NVIM_SCHEME = monokai-pro
 $NVIM_VARIANT = ristretto 
 
 general {
-    gaps_in = 2
-    gaps_out = 4
+    gaps_in = 3
+    gaps_out = 5
     border_size = 2
     col.active_border = rgba(ca9ee6ff)
     col.inactive_border = rgba(b4befecc)

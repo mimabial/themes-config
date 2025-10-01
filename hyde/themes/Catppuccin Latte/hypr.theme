@@ -27,7 +27,7 @@ group {
 }
 
 decoration {
-    rounding = 5
+    rounding = 10
 
     blur {
         enabled = yes

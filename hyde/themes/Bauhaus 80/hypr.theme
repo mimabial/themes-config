@@ -1,12 +1,15 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
-$GTK_THEME = Catppuccin-Dark-Frappe
-$CURSOR_THEME= material_light_cursors
-$NVIM_SCHEME = bauhaus
+$GTK_THEME = Frosted-Glass
+$ICON_THEME = Papirus-Yellow
+$COLOR_SCHEME = prefer-light
+$CURSOR_THEME = material_light_cursors
+$NVIM_SCHEME = solarized
+$NVIM_VARIANT = light
 
 general {
-    gaps_in = 2
-    gaps_out = 4
+    gaps_in = 3
+    gaps_out = 6
     border_size = 2
     col.active_border = rgba(003DA5ff)
     col.inactive_border = rgba(4A4A4Aff)
@@ -22,18 +25,15 @@ group {
 }
 
 decoration {
-    rounding = 10
-    active_opacity = 0.95
-    inactive_opacity = 0.90
-
-    shadow {
-    enabled = false
-    ignore_window = true
-    render_power = 5
-    color = 0x80000000
-    range = 5
-    offset = 4 4
-    }
+    rounding = 13
+    drop_shadow = false
+    shadow_ignore_window = true
+    shadow_offset = 0 0
+    shadow_range = 15
+    shadow_render_power = 1
+    col.shadow = 0x80ffffff
+    active_opacity = 1
+    inactive_opacity = 1
 
     blur {
         enabled = yes
@@ -45,3 +45,4 @@ decoration {
     }
 }
 
+layerrule = blur,waybar

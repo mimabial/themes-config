@@ -1,12 +1,13 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
+
 foreground              #000000
-background              #FAF0E6
-selection_foreground    #FAF0E6
+background              #fdf6e3
+selection_foreground    #fdf6e3
 selection_background    #000000
 cursor                  #003DA5
-cursor_text_color       #FAF0E6
+cursor_text_color       #fdf6e3
 
-active_tab_foreground     #FAF0E6
+active_tab_foreground     #fdf6e3
 active_tab_background     #003DA5
 inactive_tab_foreground   #4A4A4A
 inactive_tab_background   #F0E6DD
