@@ -4,26 +4,12 @@ $HOME/.config/waybar/theme.css|${scrDir}/wbarconfgen.sh
 @define-color main-bg #282828;
 @define-color main-fg #ebdbb2;
 
-@define-color wb-act-bg #ebdbb2;
+@define-color wb-act-bg #d79921;
 @define-color wb-act-fg #282828;
 
 @define-color wb-hvr-bg #fabd2f;
 @define-color wb-hvr-fg #282828;
 
 * {
-    font-family: "Miracode";
-    font-size: 8pt;
-}
-
-window#waybar.bottom #pill menuitem,
-window#waybar.bottom #pill menu,
-window#waybar.bottom #pill tooltip,
-window#waybar.bottom #pill,
-window#waybar.bottom #pill button,
-window#waybar.top #pill menuitem,
-window#waybar.top #pill menu,
-window#waybar.top #pill tooltip,
-window#waybar.top #pill,
-window#waybar.top #pill button {
-    border-radius: 20pt;
+font-family: "More Perfect DOS VGA";
 }
