@@ -1,9 +1,4 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
-# Tokyo Night color scheme for kitty terminal emulator
-# https://github.com/davidmathers/tokyo-night-kitty-theme
-#
-# Based on Tokyo Night color theme for Visual Studio Code
-# https://github.com/enkia/tokyo-night-vscode-theme
 
 foreground #a9b1d6
 background #24283b
@@ -57,8 +52,6 @@ inactive_border_color #101014
 bell_border_color #e0af68
 
 # Tab bar
-tab_bar_style fade
-tab_fade 1
 active_tab_foreground   #3d59a1
 active_tab_background   #16161e
 active_tab_font_style   bold
@@ -69,10 +62,3 @@ tab_bar_background #101014
 
 # Title bar
 macos_titlebar_color #16161e
-
-# Storm
-# background #24283b
-# cursor_text_color #24283b
-# active_tab_background   #1f2335
-# inactive_tab_background #1f2335
-# macos_titlebar_color #1f2335

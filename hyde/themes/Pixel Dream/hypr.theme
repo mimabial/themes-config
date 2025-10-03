@@ -10,37 +10,37 @@ $NVIM_SCHEME=gruvbox-material
 $NVIM_VARIANT=hard
 
 general {
-    gaps_in = 2
-    gaps_out = 4
-    border_size = 2
-    col.active_border = rgba(ebdbb2ff)
-    col.inactive_border = rgba(665c54cc)
-    layout = dwindle
-    resize_on_border = true
+gaps_in = 2
+gaps_out = 4
+border_size = 2
+col.active_border = rgba(ebdbb2ff)
+col.inactive_border = rgba(665c54cc)
+layout = dwindle
+resize_on_border = true
 }
 
 group {
-    col.border_active = rgba(ebdbb2ff)
-    col.border_inactive = rgba(665c54cc)
-    col.border_locked_active = rgba(ebdbb2ff)
-    col.border_locked_inactive = rgba(665c54cc)
+col.border_active = rgba(ebdbb2ff)
+col.border_inactive = rgba(665c54cc)
+col.border_locked_active = rgba(ebdbb2ff)
+col.border_locked_inactive = rgba(665c54cc)
 }
 
 decoration {
-    rounding = 3
+rounding = 3
 
-    blur {
-        enabled = yes
-        size = 6
-        passes = 3
-        new_optimizations = on
-        ignore_opacity = on
-        xray = false
-    }
+blur {
+enabled = yes
+size = 6
+passes = 3
+new_optimizations = on
+ignore_opacity = on
+xray = false
+}
 
-    shadow {
-        enabled = false
-    }
+shadow {
+enabled = false
+}
 }
 
 
