@@ -18,7 +18,7 @@ cursor #a89984
 cursor_text_color background
 
 active_tab_background #1d2021
-active_tab_foreground #d4be98
+active_tab_foreground #98971a
 active_tab_font_style bold
 inactive_tab_background #1d2021
 inactive_tab_foreground #a89984

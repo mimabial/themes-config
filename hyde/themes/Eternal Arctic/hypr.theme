@@ -9,58 +9,56 @@ $CODE_THEME = Nord
 $NVIM_SCHEME = nord
 
 general {
-    border_size = 3
-    col.inactive_border = rgba(434c5ebb) # Nord Polar Night (no. 1) with reduced opacity
-    col.active_border = rgba(88c0d0cc) # Nord Frost
-    resize_on_border = yes
-    gaps_in = 4
-    gaps_out = 8
+border_size = 2
+col.inactive_border = rgba(434c5ebb) # Nord Polar Night (no. 1) with reduced opacity
+col.active_border = rgba(88c0d0cc) # Nord Frost
+resize_on_border = yes
+gaps_in = 4
+gaps_out = 8
 }
 
 decoration {
-    rounding = 10
+rounding = 10
 
-    active_opacity = 0.95
-    inactive_opacity = 0.95
+active_opacity = 0.95
+inactive_opacity = 0.95
 
-    blur {
-        enabled = yes
-        size = 5
-        passes = 4
-        ignore_opacity = true
-        new_optimizations = true
-        xray = false
-        noise = 0.0
-        popups = true
-    }
+blur {
+enabled = yes
+size = 5
+passes = 4
+ignore_opacity = true
+new_optimizations = true
+xray = false
+noise = 0.0
+popups = true
+}
 
-    dim_inactive = false
-    dim_strength = 0.05
+dim_inactive = false
+dim_strength = 0.05
 
-    shadow {
-        enabled = true
-        range = 30
-        scale = 2
-        render_power = 5
-        color = rgba(3b4252ff) # Nord Polar Night (no. 2)
-        color_inactive = rgba(2e3440ff) # Nord Polar Night (no. 1)
-    }
+shadow {
+enabled = true
+range = 30
+scale = 2
+render_power = 5
+color = rgba(3b4252ff) # Nord Polar Night (no. 2)
+color_inactive = rgba(2e3440ff) # Nord Polar Night (no. 1)
+}
 }
 
 group {
-    col.border_inactive = rgba(434c5ebb) # Nord Polar Night (no. 1)
-    col.border_active = rgba(88c0d0cc) # Nord Frost
+col.border_inactive = rgba(434c5ebb) # Nord Polar Night (no. 1)
+col.border_active = rgba(88c0d0cc) # Nord Frost
 
-    groupbar {
-      col.active = rgba(88c0d0cc) # Nord Frost (no. 2) with opacity
-      col.inactive = rgba(4c566aff) # Nord Polar Night (no. 3)
-      font_family = JetBrainsMono NFM
-      font_size = 10
-      text_color = rgba(d8dee9ff) # Nord Snow Storm (no. 1)
-    }
+groupbar {
+col.active = rgba(88c0d0cc) # Nord Frost (no. 2) with opacity
+col.inactive = rgba(4c566aff) # Nord Polar Night (no. 3)
+font_family = JetBrainsMono NFM
+font_size = 10
+text_color = rgba(d8dee9ff) # Nord Snow Storm (no. 1)
+}
 }
 
 
 blurls = waybar
-
-

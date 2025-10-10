@@ -4,23 +4,23 @@ $GTK_THEME = Rose-Pine
 $ICON_THEME = Tela-circle-pink
 $COLOR_SCHEME = prefer-dark
 $NVIM_SCHEME = rose-pine
-$NVIM_VARIANT = main
+$NVIM_VARIANT = moon
 
 general {
     gaps_in = 2
     gaps_out = 4
     border_size = 2
-    col.active_border = rgba(eb6f92ff)
-    col.inactive_border = rgba(31748fcc)
+    col.active_border = rgba(3e8fb0ff)
+    col.inactive_border = rgba(44415aff)
     layout = dwindle
     resize_on_border = true
 }
 
 group {
-    col.border_active = rgba(eb6f92ff)
-    col.border_inactive = rgba(31748fcc)
-    col.border_locked_active = rgba(eb6f92ff)
-    col.border_locked_inactive = rgba(31748fcc)
+    col.border_active = rgba(3e8fb0ff)
+    col.border_inactive = rgba(44415aff)
+    col.border_locked_active = rgba(3e8fb0ff)
+    col.border_locked_inactive = rgba(44415aff)
 }
 
 decoration {

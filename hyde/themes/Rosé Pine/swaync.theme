@@ -1,0 +1,47 @@
+$HOME/.config/swaync/theme.css|swaync-client -R && swaync-client -rs
+
+:root {
+  --bg0-hard: #232136;
+  --bg0: #2a273f;
+  --bg1: #393552;
+  --bg2: #44415a;
+  --bg3: #56526e;
+  --bg4: #6e6a86;
+  --fg0: #e0def4;
+  --fg1: #e0def4;
+  --fg2: #c4a7e7;
+  --fg3: #908caa;
+  --fg4: #6e6a86;
+  --red: #eb6f92;
+  --green: #3e8fb0;
+  --yellow: #f6c177;
+  --blue: #9ccfd8;
+  --purple: #c4a7e7;
+  --aqua: #9ccfd8;
+  --orange: #ea9a97;
+  --gray: #908caa;
+  --red-bright: #eb6f92;
+  --green-bright: #3e8fb0;
+  --yellow-bright: #f6c177;
+  --blue-bright: #9ccfd8;
+  --purple-bright: #c4a7e7;
+  --aqua-bright: #9ccfd8;
+  --orange-bright: #ea9a97;
+  --gray-bright: #908caa;
+  --notification-bg-low: rgba(62, 143, 176, 0.5);
+  --notification-fg-low: rgba(224, 222, 244, 0.9);
+  --notification-border-low: rgba(62, 143, 176, 0.01);
+  --notification-bg-normal: rgba(156, 207, 216, 0.5);
+  --notification-fg-normal: rgba(224, 222, 244, 0.9);
+  --notification-border-normal: rgba(156, 207, 216, 0.01);
+  --notification-bg-critical: #eb6f92;
+  --notification-fg-critical: #232136;
+  --notification-border-critical: #eb6f92;
+  --control-center-bg: rgba(35, 33, 54, 0.95);
+  --control-center-fg: #e0def4;
+  --control-center-border: #c4a7e7;
+  --widget-bg: rgba(57, 53, 82, 0.8);
+  --button-bg: #c4a7e7;
+  --button-fg: #232136;
+  --button-hover: #9ccfd8;
+}

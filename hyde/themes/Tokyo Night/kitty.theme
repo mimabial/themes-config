@@ -1,42 +1,42 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
-foreground #a9b1d6
-background #24283b
+foreground #c8d3f5
+background #222436
 
 # Black
-color0 #414868
-color8 #414868
+color0 #444a73
+color8 #444a73
 
 # Red
-color1 #f7768e
-color9 #f7768e
+color1 #ff757f
+color9 #c53b53
 
 # Green
-color2  #73daca
-color10 #73daca
+color2 #c3e88d
+color10 #4fd6be
 
 # Yellow
-color3  #e0af68
-color11 #e0af68
+color3 #ffc777
+color11 #ff966c
 
 # Blue
-color4  #7aa2f7
-color12 #7aa2f7
+color4 #82aaff
+color12 #3e68d7
 
 # Magenta
-color5  #bb9af7
-color13 #bb9af7
+color5 #c099ff
+color13 #ff007c
 
 # Cyan
-color6  #7dcfff
-color14 #7dcfff
+color6 #86e1fc
+color14 #4fd6be
 
 # White
-color7  #c0caf5
-color15 #c0caf5
+color7 #c8d3f5
+color15 #828bb8
 
 # Cursor
-cursor #c0caf5
+cursor #c8d3f5
 cursor_text_color #1a1b26
 
 # Selection highlight
@@ -44,21 +44,18 @@ selection_foreground none
 selection_background #28344a
 
 # The color for highlighting URLs on mouse-over
-url_color #9ece6a
+url_color #c3e88d
 
 # Window borders
-active_border_color #3d59a1
+active_border_color #3e68d7
 inactive_border_color #101014
-bell_border_color #e0af68
+bell_border_color #ffc777
 
 # Tab bar
-active_tab_foreground   #3d59a1
-active_tab_background   #16161e
-active_tab_font_style   bold
-inactive_tab_foreground #787c99
+active_tab_foreground #82aaff
+active_tab_background #16161e
+active_tab_font_style bold
+inactive_tab_foreground #636da6
 inactive_tab_background #16161e
 inactive_tab_font_style bold
-tab_bar_background #101014
-
-# Title bar
-macos_titlebar_color #16161e
+tab_bar_background #1e2030

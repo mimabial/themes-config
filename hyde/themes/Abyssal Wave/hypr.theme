@@ -7,55 +7,54 @@ $NVIM_SCHEME = kanagawa
 $NVIM_VARIANT = wave
 
 general {
-border_size = 3
-col.inactive_border = rgba(6a9589b0) # Kanagawa crust
-col.active_border = rgba(957fb8b0) # Kanagawa lavender
-
-gaps_in = 4
-gaps_out = 8
+  border_size = 3
+  col.inactive_border = rgba(727169b0)
+  col.active_border = rgba(dcd7baee)
+  gaps_in = 4
+  gaps_out = 8
 }
 
 decoration {
-rounding = 0
+  rounding = 3
 
-active_opacity = 0.95
-inactive_opacity = 0.95
+  active_opacity = 0.95
+  inactive_opacity = 0.95
 
-blur {
-enabled = yes
-size = 5
-passes = 4
-ignore_opacity = true
-new_optimizations = true
-xray = false
-noise = 0.0
-popups = true
-}
+  blur {
+    enabled = yes
+    size = 5
+    passes = 4
+    ignore_opacity = true
+    new_optimizations = true
+    xray = false
+    noise = 0.0
+    popups = true
+  }
 
-dim_inactive = false
-dim_strength = 0.05
+  dim_inactive = false
+  dim_strength = 0.05
 
-shadow {
-enabled = true
-range = 15
-scale = 2
-render_power = 5
-color = rgba(16161dff) # Kanagawa waveBlue1
-color_inactive = rgba(2a2a37ff) # Kanagawa waveBlue2
-}
+  shadow {
+    enabled = true
+    range = 15
+    scale = 2
+    render_power = 5
+    color = rgba(16161dff)
+    color_inactive = rgba(2a2a37ff)
+  }
 }
 
 group {
-col.border_inactive = rgba(6a9589b0) # Kanagawa crust
-col.border_active = rgba(dcd7baee) rgba(957fb8b0) rgba(957fb8b0) rgba(dcd7baee) 45deg # Kanagawa fujiWhite and lavender
+  col.border_inactive = rgba(727169b0)
+  col.border_active = rgba(dcd7baee)
 
-groupbar {
-col.active = rgba(957fb8cc) # Kanagawa lavender with opacity
-col.inactive = rgba(717c7c99) # Kanagawa stoneGray with opacity
-font_family = JetBrainsMono NFM
-font_size = 10
-text_color = rgba(1f1f28ff) # Kanagawa sumiInk1
-}
+  groupbar {
+    col.active = rgba(957fb8cc)
+    col.inactive = rgba(717c7c99)
+    font_family = JetBrainsMono NFM
+    font_size = 10
+    text_color = rgba(1f1f28ff)
+  }
 }
 
 layerrule = blur,waybar

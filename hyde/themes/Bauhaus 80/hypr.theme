@@ -1,6 +1,7 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
-$GTK_THEME = Frosted-Glass
+# $GTK_THEME = Frosted-Glass
+$GTK_THEME = Orchis-Light
 $ICON_THEME = Tela-circle-blue
 $COLOR_SCHEME = prefer-light
 $CURSOR_THEME = GoogleDot-Blue
@@ -8,41 +9,36 @@ $NVIM_SCHEME = solarized
 $NVIM_VARIANT = light
 
 general {
-    gaps_in = 3
-    gaps_out = 6
-    border_size = 2
-    col.active_border = rgba(003DA5ff)
-    col.inactive_border = rgba(4A4A4Aff)
-    layout = dwindle
-    resize_on_border = true
+  gaps_in = 3
+  gaps_out = 6
+  border_size = 2
+  col.active_border = rgba(003DA5ff)
+  col.inactive_border = rgba(4A4A4Aff)
+  layout = dwindle
+  resize_on_border = true
 }
 
 group {
-    col.border_active = rgba(003DA5ff)
-    col.border_inactive = rgba(4A4A4Affcc)
-    col.border_locked_active = rgba(228B22ff)
-    col.border_locked_inactive = rgba(4A4A4Acc)
+  col.border_active = rgba(003DA5ff)
+  col.border_inactive = rgba(4A4A4Affcc)
+  col.border_locked_active = rgba(228B22ff)
+  col.border_locked_inactive = rgba(4A4A4Acc)
 }
 
 decoration {
-    rounding = 13
-    drop_shadow = false
-    shadow_ignore_window = true
-    shadow_offset = 0 0
-    shadow_range = 15
-    shadow_render_power = 1
-    col.shadow = 0x80ffffff
-    active_opacity = 1
-    inactive_opacity = 1
+  rounding = 6
+  shadow {
+    enabled = false
+  }
 
-    blur {
-        enabled = yes
-        size = 4
-        passes = 4
-        new_optimizations = on
-        ignore_opacity = on
-        xray = false
-    }
+  blur {
+    enabled = yes
+    size = 4
+    passes = 4
+    new_optimizations = on
+    ignore_opacity = on
+    xray = false
+  }
 }
 
 layerrule = blur,waybar

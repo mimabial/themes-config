@@ -1,8 +1,8 @@
-$HOME/.config/alacritty/theme.toml|killall -SIGUSR1 alacritty
+$HOME/.config/alacritty/theme.toml
 
 [colors.primary]
 foreground = "#ebdbb2"
-background = "#1d2021"
+background = "#272727"
 
 [colors.cursor]
 text = "#1d2021"

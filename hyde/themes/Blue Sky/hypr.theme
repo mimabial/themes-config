@@ -8,49 +8,46 @@ $CURSOR_THEME= material_light_cursors
 $NVIM_SCHEME = nord
 
 general {
-    gaps_in = 6
-    gaps_out = 12
-    border_size = 3
-    col.active_border = rgba(D3DCE6ff) rgba(293C52ff) 45deg
-    col.inactive_border = rgba(122D41ff) rgba(376FABff) 45deg
-    layout = dwindle
-    resize_on_border = true
+gaps_in = 6
+gaps_out = 12
+border_size = 3
+col.active_border = rgba(D3DCE6ff)
+col.inactive_border = rgba(122D41ff)
+layout = dwindle
+resize_on_border = true
 }
 
 group {
-    col.border_active = rgba(D3DCE6ff) rgba(293C52ff) 45deg
-    col.border_inactive = rgba(122D41cc) rgba(376FABcc) 45deg
-    col.border_locked_active = rgba(100F0Fff) rgba(060605ff) 45deg
-    col.border_locked_inactive = rgba(FFFFFFcc) rgba(FFFFFFcc) 45deg
+col.border_active = rgba(D3DCE6ff)
+col.border_inactive = rgba(122D41cc)
+col.border_locked_active = rgba(100F0Fff)
+col.border_locked_inactive = rgba(FFFFFFcc)
 }
 
 decoration {
-    rounding = 12
+rounding = 6
 
-    active_opacity = 0.95
-    inactive_opacity = 0.90
+active_opacity = 0.95
+inactive_opacity = 0.90
 
-    blur {
-        enabled = yes
-        size = 3
-        passes = 4
-        new_optimizations = on
-        ignore_opacity = on
-        xray = false
-        brightness = 0.7
-    }
-
-    shadow {
-        enabled = true
-        ignore_window = false
-        offset = 4 4
-        range = 8
-        render_power = 2
-        scale = 1.0
-        color = 0xaaffffff
-        color_inactive = 0x66ffffff
-    }
+blur {
+enabled = yes
+size = 3
+passes = 4
+new_optimizations = on
+ignore_opacity = on
+xray = false
+brightness = 0.7
 }
 
-
-
+shadow {
+enabled = true
+ignore_window = false
+offset = 4 4
+range = 8
+render_power = 2
+scale = 1.0
+color = 0xaaffffff
+color_inactive = 0x66ffffff
+}
+}

@@ -9,37 +9,37 @@ $CODE_THEME = Solarized Dark
 $NVIM_SCHEME = solarized
 
 general {
-    gaps_in = 2
-    gaps_out = 4
-    border_size = 2
-    col.active_border = rgba(b58900ff)
-    col.inactive_border = rgba(93a1a1cc)
-    layout = dwindle
-    resize_on_border = true
+gaps_in = 2
+gaps_out = 4
+border_size = 2
+col.active_border = rgba(b58900ff)
+col.inactive_border = rgba(93a1a1cc)
+layout = dwindle
+resize_on_border = true
 }
 
 group {
-    col.border_active = rgba(b58900ff)
-    col.border_inactive = rgba(93a1a1cc)
-    col.border_locked_active = rgba(b58900ff)
-    col.border_locked_inactive = rgba(93a1a1cc)
+col.border_active = rgba(b58900ff)
+col.border_inactive = rgba(93a1a1cc)
+col.border_locked_active = rgba(b58900ff)
+col.border_locked_inactive = rgba(93a1a1cc)
 }
 
 decoration {
-    rounding = 10
+rounding = 6
 
-    blur {
-        enabled = yes
-        size = 6
-        passes = 3
-        new_optimizations = on
-        ignore_opacity = on
-        xray = false
-    }
+blur {
+enabled = yes
+size = 6
+passes = 3
+new_optimizations = on
+ignore_opacity = on
+xray = false
+}
 
-    shadow {
-        enabled = false
-    }
+shadow {
+enabled = false
+}
 }
 
 layerrule = blur,waybar
